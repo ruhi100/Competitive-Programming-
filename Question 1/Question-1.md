@@ -40,3 +40,18 @@ For every test case, print the minimum resistance value (X) on a new line. This 
  |   2 1 3 |    |
  |   5 20  |    |
  |   12 4 5 2 3 |  |
+
+
+ #### Explanation
+
+ ##### Test Case 1:
+
+* For X = 0: Chef starts with a strength of 55. After the first fight, his strength becomes 55−3=25. After the second fight, the strength is further reduced to 25−1=12. Despite having zero resistance, Chef maintains positive strength after battling all enemies.
+
+##### Test Case 2:
+
+* For X = 0: Chef begins with a strength of 55. After the first fight, his strength decreases to 55−2=3. Unfortunately, Chef can't face the third enemy without any resistance, as he has insufficient strength.
+
+* For X = 1: Chef starts with a strength of 55. After the first fight, his strength is reduced to 55−2=3. With a resistance of 11, he successfully battles the second enemy without losing strength. However, Chef still can't face the third enemy due to equal strength.
+
+* For X = 2: Chef initiates with a strength of 55. Having a resistance of 22, he defeats the first and second enemies without losing any strength. After the third fight, his remaining strength is 55−3=2. Chef concludes with positive strength after overcoming all enemies.
